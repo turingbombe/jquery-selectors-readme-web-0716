@@ -4,7 +4,7 @@
   "description": "Practice with jQuery Selectors",
   "main": "js/selectors.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "node_modules/mocha/bin/mocha test"
   },
   "repository": {
     "type": "git",
